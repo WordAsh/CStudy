@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\file_example">
+      <UniqueIdentifier>{7f3b3346-9ce8-41ab-a763-13ddee539ba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math_example">
+      <UniqueIdentifier>{30364e0a-5465-4f64-b9f2-36be44734121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\malloc_example">
+      <UniqueIdentifier>{00a92d09-d6fb-4e2f-b495-2908d1d2431e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pointer_example">
+      <UniqueIdentifier>{5e22f968-b371-4ebe-8c9c-80b630c6ccc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\log_system">
+      <UniqueIdentifier>{687ed127-c3b3-42a1-8d98-a8a6dc630d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\log_system">
+      <UniqueIdentifier>{cb3d57a3-fe79-4b65-8611-b3f88b7fd8fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sort_example">
+      <UniqueIdentifier>{727ae843-83e1-491a-94e0-c3dad5348261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sort_example">
+      <UniqueIdentifier>{97df7362-8080-4980-a9b2-7d90c8147289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_example">
+      <UniqueIdentifier>{a0043120-496b-4bb6-a431-2b2ab4a0a774}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="string_example.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G_game_functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="file_example4.c">
+      <Filter>Source Files\file_example</Filter>
+    </ClCompile>
+    <ClCompile Include="file_example5.c">
+      <Filter>Source Files\file_example</Filter>
+    </ClCompile>
+    <ClCompile Include="file_example6.c">
+      <Filter>Source Files\file_example</Filter>
+    </ClCompile>
+    <ClCompile Include="file_example7.c">
+      <Filter>Source Files\file_example</Filter>
+    </ClCompile>
+    <ClCompile Include="file_example8.c">
+      <Filter>Source Files\file_example</Filter>
+    </ClCompile>
+    <ClCompile Include="file_example1.c">
+      <Filter>Source Files\file_example</Filter>
+    </ClCompile>
+    <ClCompile Include="file_example2.c">
+      <Filter>Source Files\file_example</Filter>
+    </ClCompile>
+    <ClCompile Include="file_example3.c">
+      <Filter>Source Files\file_example</Filter>
+    </ClCompile>
+    <ClCompile Include="math_example1.c">
+      <Filter>Source Files\math_example</Filter>
+    </ClCompile>
+    <ClCompile Include="math_example2.c">
+      <Filter>Source Files\math_example</Filter>
+    </ClCompile>
+    <ClCompile Include="math_example3.c">
+      <Filter>Source Files\math_example</Filter>
+    </ClCompile>
+    <ClCompile Include="math_example4.c">
+      <Filter>Source Files\math_example</Filter>
+    </ClCompile>
+    <ClCompile Include="time_example.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="malloc_example1.c">
+      <Filter>Source Files\malloc_example</Filter>
+    </ClCompile>
+    <ClCompile Include="malloc_example2.c">
+      <Filter>Source Files\malloc_example</Filter>
+    </ClCompile>
+    <ClCompile Include="malloc_example3.c">
+      <Filter>Source Files\malloc_example</Filter>
+    </ClCompile>
+    <ClCompile Include="realloc_example.c">
+      <Filter>Source Files\pointer_example</Filter>
+    </ClCompile>
+    <ClCompile Include="triple_pointer_example.c">
+      <Filter>Source Files\pointer_example</Filter>
+    </ClCompile>
+    <ClCompile Include="dataStructure_example.c">
+      <Filter>Source Files\pointer_example</Filter>
+    </ClCompile>
+    <ClCompile Include="function_pointer1.c">
+      <Filter>Source Files\pointer_example</Filter>
+    </ClCompile>
+    <ClCompile Include="callback_example.c">
+      <Filter>Source Files\pointer_example</Filter>
+    </ClCompile>
+    <ClCompile Include="game_architect_example.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="compare_example.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dangling_pointer_example.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="variadic_function_example.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="log_variadic_example.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assert_example.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F_memory_manager.c">
+      <Filter>Source Files\log_system</Filter>
+    </ClCompile>
+    <ClCompile Include="F_logger.c">
+      <Filter>Source Files\log_system</Filter>
+    </ClCompile>
+    <ClCompile Include="F_run_app.c">
+      <Filter>Source Files\log_system</Filter>
+    </ClCompile>
+    <ClCompile Include="S_compare.c">
+      <Filter>Source Files\sort_example</Filter>
+    </ClCompile>
+    <ClCompile Include="S_self_defined_sort_example.c">
+      <Filter>Source Files\sort_example</Filter>
+    </ClCompile>
+    <ClCompile Include="S_sort.c">
+      <Filter>Source Files\sort_example</Filter>
+    </ClCompile>
+    <ClCompile Include="F_error_handling.c">
+      <Filter>Source Files\log_system</Filter>
+    </ClCompile>
+    <ClCompile Include="F_pointer_safety.c">
+      <Filter>Source Files\log_system</Filter>
+    </ClCompile>
+    <ClCompile Include="F_application_logic.c">
+      <Filter>Source Files\log_system</Filter>
+    </ClCompile>
+    <ClCompile Include="command_line_example.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F_memory_manager.h">
+      <Filter>Header Files\log_system</Filter>
+    </ClInclude>
+    <ClInclude Include="F_logger.h">
+      <Filter>Header Files\log_system</Filter>
+    </ClInclude>
+    <ClInclude Include="F_types.h">
+      <Filter>Header Files\log_system</Filter>
+    </ClInclude>
+    <ClInclude Include="S_person.h">
+      <Filter>Header Files\sort_example</Filter>
+    </ClInclude>
+    <ClInclude Include="S_compare.h">
+      <Filter>Header Files\sort_example</Filter>
+    </ClInclude>
+    <ClInclude Include="S_sort.h">
+      <Filter>Header Files\sort_example</Filter>
+    </ClInclude>
+    <ClInclude Include="G_game_abilities.h">
+      <Filter>Header Files\game_example</Filter>
+    </ClInclude>
+    <ClInclude Include="G_game_types.h">
+      <Filter>Header Files\game_example</Filter>
+    </ClInclude>
+    <ClInclude Include="G_game_structs.h">
+      <Filter>Header Files\game_example</Filter>
+    </ClInclude>
+    <ClInclude Include="G_game_functions.h">
+      <Filter>Header Files\game_example</Filter>
+    </ClInclude>
+    <ClInclude Include="F_error_handling.h">
+      <Filter>Header Files\log_system</Filter>
+    </ClInclude>
+    <ClInclude Include="F_pointer_safety.h">
+      <Filter>Header Files\log_system</Filter>
+    </ClInclude>
+    <ClInclude Include="F_application_logic.h">
+      <Filter>Header Files\log_system</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+﻿  F_logger.c
+E:\coding\c_learn\c_learn\F_logger.c(62,10): warning C4133: 'function': incompatible types - from 'FILE *' to 'const char *const '
+E:\coding\c_learn\c_learn\F_logger.c(62,25): warning C4090: 'function': different 'const' qualifiers
+E:\coding\c_learn\c_learn\F_logger.c(62,27): warning C4020: 'vprintf': too many actual parameters
+  F_run_app.c
+  Generating Code...
+log_variadic_example.obj : error LNK2005: log_message already defined in F_logger.obj
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+E:\coding\c_learn\x64\Debug\c_learn.exe : fatal error LNK1120: 1 unresolved externals
